@@ -1,5 +1,5 @@
-La normalisation 1NF est respecté dans notre base de données car chaque colonne de nos tables contient une valeur atomique, c'est à dire non divisible. De plus, chaque enregistrement ne contient aucun doublon.
+La normalisation 1NF est respecté dans notre base de données car chaque colonne de nos tables contient une valeur atomique, c'est à dire non divisible. De plus, chaque enregistrement ne contient aucun doublon. Par exemple, dans la table planete, il n'y a aucun doublon et chaque valeur est atomique ( Terre n'existe une seule fois et aucun de ses attributs n'est divisible. ) 
 
 La normalisation 2NF n'est pas vérifiable dans notre cas car nos tables où se situent les clés composites ne contiennent pas d'autres attributs. De plus, elle est elle-même en 1NF.
 
-La normalisation 3NF est respecté dans notre base de données car tout les attributs de nos tables dépendent directement de la clé primaire.
+La normalisation 3NF est respecté dans notre base de données car tout les attributs de nos tables dépendent directement de la clé primaire. Exemple, dans la table satellite, nom dépend de l'id ( il n'y aura qu'un seul id unique pour un nom de satellite. ) 
