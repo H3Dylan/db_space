@@ -1,0 +1,32 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    /*background-color: #f4f4f4;*/
+    background-image: url('4k-ultra-hd-galaxy-gd084x5buvc6qrj8.jpg');
+    background-size: cover; /* Pour s'assurer que l'image couvre tout l'arrière-plan */
+    background-repeat: no-repeat; /* Pour éviter la répétition de l'image */
+    background-attachment: fixed; /* Pour fixer l'image à la position de l'arrière-plan */
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-image: url('4k-ultra-hd-galaxy-gd084x5buvc6qrj8.jpg');
+    background-size: cover; /* Pour s'assurer que l'image couvre tout l'arrière-plan */
+    background-repeat: no-repeat; /* Pour éviter la répétition de l'image */
+    background-attachment: fixed; /* Pour fixer l'image à la position de l'arrière-plan */
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    color : #fff;
+    display: flex;
+}
